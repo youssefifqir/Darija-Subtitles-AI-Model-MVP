@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+backend/.venv/
+
+# Node
+frontend/node_modules/
+
+# Model weights (large, download separately via backend/README instructions)
+backend/models/
+
+# Generated app data (uploads, jobs, corrections log)
+backend/data/
+
+# Test audio / scratch transcripts (local benchmarking only, not for the repo)
+test.mp3
+test2.wav
+test_16k.wav
+test2_16k.wav
+backend/transcript_*.md
+
+# Claude Code internal
+.claude/
